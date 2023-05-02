@@ -1,0 +1,230 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  *{
+  box-sizing: border-box;
+  margin: 0;
+    padding: 0; 
+  }
+  
+  body {
+    background-image: url(https://img.freepik.com/fotos-gratis/confete-polvilha-o-fundo-em-rosa_53876-165510.jpg);
+    color: black;
+    font-family: Candara, Helvetica, sans-seriff;
+    margin: 0;
+    padding: 10px 50px 50px 50px;
+  }
+   
+h1,h2{
+  margin: 0;
+}
+
+header h1{
+    font-size: 5rem;
+    user-select: none;
+    text-shadow: 5px 2.5px 2.5px white;
+  }
+  
+  #logo{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #F8C1D4;
+    box-shadow: 5px 2.5px 2.5px #FF69B4;
+  }
+  
+  #logoImg{
+    margin-right: 10px;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  #BoloImg{
+    margin-right: 2px;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .menu{
+    display: flex;
+    justify-content: center;
+    background-color: #F8C1D4;
+    box-shadow: 5px 2.5px 2.5px #FF69B4;
+  }
+
+  .menu a{
+    padding: 14px;
+    text-decoration: none;
+    color: white;
+    transition: background-color .5s;
+    border-radius: 40px;
+    
+  }
+
+  .menu a:hover{
+    background-color: white;
+    color: #eb4b5e;
+    box-shadow: 10px 5px 5px #aa3c49;
+  }
+
+  .card{
+    background-color: #FFC0CB;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,3);
+    margin-right: px;
+    pointer-events: none;
+    user-select: none;
+    box-shadow: 5px 2.5px 2.5px #FF69B4;
+    height: 410px;
+    width: 1820px;
+    border-radius: 3%;
+    }
+
+    .produto{
+        text-align: center;
+        margin: 5px;
+        padding: 8px;
+        transition: box-shadow .5s;
+        border-radius: 20px;
+        height: 276px;
+        width: 200px;
+        box-shadow: 5px 5px 10px #FFFAFA;
+        
+      }
+
+
+      .produto2{
+        text-align: center;
+        margin: 5px;
+        padding: 8px;
+        transition: box-shadow .5s;
+        border-radius: 20px;
+        height: 276px;
+        width: 300px;
+        box-shadow: 5px 5px 10px #FFFAFA;
+        
+      }
+
+
+      .produto:hover{
+        background-color: white;
+        color: #eb4b5e;
+        box-shadow: 10px 5px 5px #aa3c49;
+        
+      }
+
+      .tituloProduto{
+        font-weight: bold;
+      }
+      .grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        
+      }
+      
+      .miniGrid{
+        height: 300px;
+        overflow: hidden;
+      }
+      
+
+      .card1{
+        background-color: #FFC0CB;
+        padding: 20px;
+        margin: 20px 0 20px 0;
+        border-radius: 5px;
+        box-shadow: 0 1px 3px rgba( 0,0,0,3);
+        margin-right: 600px;
+        pointer-events: none;
+        user-select: none;
+        box-shadow: 5px 2.5px 2.5px #FF69B4;
+        width: 350px;
+        height: 300px;
+        }
+
+
+        .card2{
+          background-color: #FFC0CB;
+          padding: 20px;
+          margin: 20px 0 20px 0;
+          border-radius: 5px;
+          box-shadow: 0 1px 3px rgba(0,0,0,3);
+          margin-right: 10px;
+          pointer-events: none;
+          user-select: none;
+          box-shadow: 5px 2.5px 2.5px #FF69B4;
+          height: 400px;
+          width: 700px;
+          }
+
+          .app {
+            position: relative;
+            left: 750px;
+            bottom: 100px;
+            top: -210px;
+            justify-content: center;
+            text-align: center;
+            border: 3px solid grey;
+            width: 400px;
+            height: 230px;
+            padding: 8px;
+            transition: box-shadow .5s;
+            border-radius: 20px;
+          }
+
+          .card3{
+            background-color: #FFC0CB;
+            padding: 20px;
+            margin: 20px 0 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,3);
+            margin-right: px;
+            pointer-events: none;
+            user-select: none;
+            box-shadow: 5px 2.5px 2.5px #FF69B4;
+            height: 250px;
+            width: 1820px;
+            border-radius: 3%;
+            }
+
+
+            .card4{
+              justify-content: space-betweens;
+              bottom: 0%;
+              background-color: #FFC0CB;
+              padding: 20px;
+              margin: 20px 0 20px 0;
+              border-radius: 5px;
+              margin-right: 10px;
+              pointer-events: none;
+              user-select: none;
+              box-shadow: 5px 2.5px 2.5px #FF69B4;
+              height: 410px;
+              width: 1820px;
+              }
+
+              .card5{
+                
+                background-color: #FFC0CB;
+                padding: 20px;
+                margin: 20px 0 20px 0;
+                border-radius: 5px;
+                box-shadow: 0 1px 3px rgba(0,0,0,3);
+                margin-right: 10px;
+                pointer-events: none;
+                user-select: none;
+                box-shadow: 5px 2.5px 2.5px #FF69B4;
+                height: 410px;
+                width: 1820px;
+                }
+
+                h4{
+                  margin: 10px;
+                  float: right, top;
+                  bottom: 10px;
+                  text-align: right;
+                  }
